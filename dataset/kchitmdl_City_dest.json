@@ -1,5 +1,5 @@
 {
-	"name": "kchitmdldestCity",
+	"name": "kchitmdl_City_dest",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmdl",
