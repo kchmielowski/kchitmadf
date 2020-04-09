@@ -1,0 +1,17 @@
+{
+	"name": "kchitmdb",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=ITM5245\\KCHITM;initial catalog=WideWorldImportersDW",
+			"userName": "ITMAGINATION\\kamil.chmielowski",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4NjU5NzFlYy01NTU0LTRiMmQtYTg1MC1iMjM0YzIxODNlYTYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "itmkchDW",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
