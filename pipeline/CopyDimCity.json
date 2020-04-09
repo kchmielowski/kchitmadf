@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_j5f",
+				"name": "CopyDimCity",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -43,13 +43,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "kchitmlocaldbsrc",
+						"referenceName": "kchitmlocal_City_src",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "kchitmdldest",
+						"referenceName": "kchitmdl_City_dest",
 						"type": "DatasetReference"
 					}
 				]
