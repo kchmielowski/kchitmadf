@@ -2,7 +2,7 @@
 	"name": "kchitmdl_Employee_dest",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "kchitmdl",
+			"referenceName": "kchitmdl2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
