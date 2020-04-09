@@ -1,0 +1,10 @@
+{
+	"name": "kchitmkv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://dkchitmkv.vault.azure.net/"
+		}
+	}
+}
