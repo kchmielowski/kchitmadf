@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_5vg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchitmdl2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "test.parquet",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy",
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
