@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_5vg",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurekchitm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Customer Key",
+				"type": "int"
+			}
+		],
+		"typeProperties": {
+			"schema": "Dimension",
+			"table": "Customer_v1"
+		}
+	}
+}
