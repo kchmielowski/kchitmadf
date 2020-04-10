@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_u4t",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurekchitm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "int"
+			}
+		],
+		"typeProperties": {
+			"schema": "Dimension",
+			"table": "Customer_v2"
+		}
+	}
+}
