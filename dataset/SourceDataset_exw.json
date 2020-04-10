@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_exw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchitmlocaldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Dimension",
+			"table": "Customer_v2"
+		}
+	}
+}
