@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_u4t",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchitmdl2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Customer.parquet",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
