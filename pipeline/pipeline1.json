@@ -1,0 +1,25 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "test",
+					"value": "tetetete"
+				}
+			}
+		],
+		"variables": {
+			"test": {
+				"type": "String",
+				"defaultValue": "test"
+			}
+		},
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
