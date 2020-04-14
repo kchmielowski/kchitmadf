@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchitmdl_City_Parquet",
+	"name": "dest_kchitmdl_City_parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmdl2",
