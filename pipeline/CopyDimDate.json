@@ -43,13 +43,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_kchitmlocal_Date",
+						"referenceName": "src_kchitmlocal_tbl",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchitmdl_Date",
+						"referenceName": "dest_kchitmdl_Date_csv",
 						"type": "DatasetReference"
 					}
 				]
