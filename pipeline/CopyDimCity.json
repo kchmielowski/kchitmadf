@@ -16,7 +16,7 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "Dimension.City"
+						"value": "Dimension.City_V"
 					},
 					{
 						"name": "Destination",
