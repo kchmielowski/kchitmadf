@@ -1,5 +1,5 @@
 {
-	"name": "kchitmdl_Date_dest",
+	"name": "dest_kchitmdl_Date",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmdl2",

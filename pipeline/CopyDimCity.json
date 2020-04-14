@@ -27,18 +27,6 @@
 					"source": {
 						"type": "SqlServerSource"
 					},
-					"sink": {
-						"type": "DelimitedTextSink",
-						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings",
-							"maxConcurrentConnections": 14
-						},
-						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".txt"
-						}
-					},
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
@@ -49,8 +37,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"type": "Int32",
-									"ordinal": 1
+									"name": "CityKey",
+									"type": "Int32"
 								}
 							},
 							{
@@ -59,8 +47,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"type": "Int32",
-									"ordinal": 2
+									"name": "WWICityID",
+									"type": "Int32"
 								}
 							},
 							{
@@ -69,8 +57,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 3
+									"name": "City",
+									"type": "String"
 								}
 							},
 							{
@@ -79,8 +67,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 4
+									"name": "StateProvince",
+									"type": "String"
 								}
 							},
 							{
@@ -89,8 +77,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 5
+									"name": "Country",
+									"type": "String"
 								}
 							},
 							{
@@ -99,8 +87,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 6
+									"name": "Continent",
+									"type": "String"
 								}
 							},
 							{
@@ -109,8 +97,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 7
+									"name": "SalesTerritory",
+									"type": "String"
 								}
 							},
 							{
@@ -119,8 +107,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 8
+									"name": "Region",
+									"type": "String"
 								}
 							},
 							{
@@ -129,8 +117,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"type": "String",
-									"ordinal": 9
+									"name": "Subregion",
+									"type": "String"
 								}
 							},
 							{
@@ -139,8 +127,8 @@
 									"type": "Int64"
 								},
 								"sink": {
-									"type": "Int64",
-									"ordinal": 10
+									"name": "LatestRecordedPopulation",
+									"type": "Int64"
 								}
 							},
 							{
@@ -149,8 +137,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"type": "DateTime",
-									"ordinal": 11
+									"name": "ValidFrom",
+									"type": "DateTime"
 								}
 							},
 							{
@@ -159,8 +147,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"type": "DateTime",
-									"ordinal": 12
+									"name": "ValidTo",
+									"type": "DateTime"
 								}
 							},
 							{
@@ -169,8 +157,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"type": "Int32",
-									"ordinal": 13
+									"name": "LineageKey",
+									"type": "Int32"
 								}
 							}
 						]
@@ -178,13 +166,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "kchitmlocal_City_src",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "kchitmdl_City_dest",
+						"referenceName": "src_kchitmlocal_City",
 						"type": "DatasetReference"
 					}
 				]

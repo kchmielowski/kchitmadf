@@ -43,13 +43,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "kchitmlocal_Customer_src",
+						"referenceName": "src_kchitmlocal_Customer",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "kchitmdl_Customer_dest",
+						"referenceName": "dest_kchitmdl_Customer",
 						"type": "DatasetReference"
 					}
 				]

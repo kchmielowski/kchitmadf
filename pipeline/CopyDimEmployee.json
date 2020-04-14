@@ -41,13 +41,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "kchitmdl_Employee_dest",
+						"referenceName": "dest_kchitmdl_Employee",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "kchitmlocal_Employee_src",
+						"referenceName": "src_kchitmlocal_Employee",
 						"type": "DatasetReference"
 					}
 				]
