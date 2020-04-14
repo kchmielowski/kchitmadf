@@ -1,5 +1,5 @@
 {
-	"name": "src_kchitmlocal_City",
+	"name": "src_kchitmlocal_City_tbl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmlocaldb",
