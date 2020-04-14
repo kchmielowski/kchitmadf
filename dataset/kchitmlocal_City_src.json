@@ -9,19 +9,21 @@
 		"type": "SqlServerTable",
 		"schema": [
 			{
-				"name": "City Key",
-				"type": "int"
+				"name": "CityKey",
+				"type": "int",
+				"precision": 10
 			},
 			{
-				"name": "WWI City ID",
-				"type": "int"
+				"name": "WWICityID",
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "City",
 				"type": "nvarchar"
 			},
 			{
-				"name": "State Province",
+				"name": "StateProvince",
 				"type": "nvarchar"
 			},
 			{
@@ -33,7 +35,7 @@
 				"type": "nvarchar"
 			},
 			{
-				"name": "Sales Territory",
+				"name": "SalesTerritory",
 				"type": "nvarchar"
 			},
 			{
@@ -45,29 +47,29 @@
 				"type": "nvarchar"
 			},
 			{
-				"name": "Location",
-				"type": "WideWorldImportersDW.sys.geography"
+				"name": "LatestRecordedPopulation",
+				"type": "bigint",
+				"precision": 19
 			},
 			{
-				"name": "Latest Recorded Population",
-				"type": "bigint"
+				"name": "ValidFrom",
+				"type": "datetime2",
+				"scale": 7
 			},
 			{
-				"name": "Valid From",
-				"type": "datetime2"
+				"name": "ValidTo",
+				"type": "datetime2",
+				"scale": 7
 			},
 			{
-				"name": "Valid To",
-				"type": "datetime2"
-			},
-			{
-				"name": "Lineage Key",
-				"type": "int"
+				"name": "LineageKey",
+				"type": "int",
+				"precision": 10
 			}
 		],
 		"typeProperties": {
 			"schema": "Dimension",
-			"table": "City"
+			"table": "City_V"
 		}
 	}
 }
