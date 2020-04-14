@@ -27,6 +27,13 @@
 					"source": {
 						"type": "SqlServerSource"
 					},
+					"sink": {
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings",
+							"maxConcurrentConnections": 30
+						}
+					},
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
@@ -167,6 +174,12 @@
 				"inputs": [
 					{
 						"referenceName": "src_kchitmlocal_City",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "dest_kchitmdl_City_Parquet",
 						"type": "DatasetReference"
 					}
 				]
