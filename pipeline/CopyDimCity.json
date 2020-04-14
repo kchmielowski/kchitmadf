@@ -173,13 +173,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_kchitmlocal_City",
+						"referenceName": "src_kchitmlocal_City_tbl",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchitmdl_City_Parquet",
+						"referenceName": "dest_kchitmdl_City_parquet",
 						"type": "DatasetReference"
 					}
 				]
