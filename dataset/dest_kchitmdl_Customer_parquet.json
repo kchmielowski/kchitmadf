@@ -1,0 +1,25 @@
+{
+	"name": "dest_kchitmdl_Customer_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchitmdl2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Customer.parquet",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "INT32"
+			}
+		]
+	}
+}

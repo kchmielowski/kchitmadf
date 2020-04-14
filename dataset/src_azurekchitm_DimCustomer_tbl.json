@@ -1,0 +1,66 @@
+{
+	"name": "src_azurekchitm_DimCustomer_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurekchitm",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "WWICustomerID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Customer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BillToCustomer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BuyingGroup",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PrimaryContact",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PostalCode",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ValidFrom",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ValidTo",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "LineageKey",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "Dimension",
+			"table": "Customer_V"
+		}
+	}
+}
