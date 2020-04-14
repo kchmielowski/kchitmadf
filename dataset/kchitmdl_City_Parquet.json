@@ -1,0 +1,25 @@
+{
+	"name": "kchitmdl_City_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchitmdl2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "City.parquet",
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "CustomerKey",
+				"type": "INT32"
+			}
+		]
+	}
+}
