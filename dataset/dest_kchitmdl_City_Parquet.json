@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchitmdl_FactSale_parquet",
+	"name": "dest_kchitmdl_City_Parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmdl2",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Sale.parquet",
+				"fileName": "City.parquet",
 				"fileSystem": "raw"
 			},
 			"compressionCodec": "snappy"

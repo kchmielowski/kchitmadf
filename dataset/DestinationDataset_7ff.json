@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchitmdl_FactSale_parquet",
+	"name": "DestinationDataset_7ff",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchitmdl2",
@@ -10,17 +10,12 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Sale.parquet",
+				"fileName": "Customer.parquet",
 				"fileSystem": "raw"
 			},
 			"compressionCodec": "snappy"
 		},
-		"schema": [
-			{
-				"name": "CustomerKey",
-				"type": "INT32"
-			}
-		]
+		"schema": []
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
