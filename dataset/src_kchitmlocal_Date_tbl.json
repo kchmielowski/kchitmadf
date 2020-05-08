@@ -1,6 +1,10 @@
 {
-	"name": "src_kchitmlocal_tbl",
+	"name": "src_kchitmlocal_Date_tbl",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchbizlocaldb",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [
@@ -69,7 +73,7 @@
 		],
 		"typeProperties": {
 			"schema": "Dimension",
-			"table": "Date"
+			"table": "Date_V"
 		}
 	}
 }
