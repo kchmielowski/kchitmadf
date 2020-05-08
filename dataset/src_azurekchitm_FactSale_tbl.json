@@ -1,6 +1,10 @@
 {
 	"name": "src_azurekchitm_FactSale_tbl",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchbizazuredb",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
