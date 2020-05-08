@@ -1,10 +1,6 @@
 {
 	"name": "dest_kchitmdl_FactSale_parquet",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "kchitmdl2",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {

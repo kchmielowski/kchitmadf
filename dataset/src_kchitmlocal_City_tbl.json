@@ -1,10 +1,6 @@
 {
 	"name": "src_kchitmlocal_City_tbl",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "kchitmlocaldb",
-			"type": "LinkedServiceReference"
-		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [
