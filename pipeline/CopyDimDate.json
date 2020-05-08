@@ -43,7 +43,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_kchitmlocal_tbl",
+						"referenceName": "src_kchitmlocal_Date_tbl",
 						"type": "DatasetReference"
 					}
 				],
