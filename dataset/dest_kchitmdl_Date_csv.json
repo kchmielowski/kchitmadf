@@ -1,6 +1,10 @@
 {
 	"name": "dest_kchitmdl_Date_csv",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchbizdl2",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
