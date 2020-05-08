@@ -1,0 +1,10 @@
+{
+	"name": "kchbizkv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kchbizkeyvault.vault.azure.net/"
+		}
+	}
+}
