@@ -1,0 +1,21 @@
+{
+	"name": "kchbizlocaldb",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kchbizkv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kchdblocal"
+			}
+		},
+		"connectVia": {
+			"referenceName": "kchbizlocal",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
