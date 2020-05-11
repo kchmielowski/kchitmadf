@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchitmdl_FactSale_parquet",
+	"name": "dest_kchbizdl2_FactSale_parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizdl2",
