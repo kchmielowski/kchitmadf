@@ -52,13 +52,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_azurekchitm_FactSale_tbl",
+						"referenceName": "src_kchbizsqlserver_FactSale_tbl",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchitmdl_FactSale_parquet",
+						"referenceName": "dest_kchbizdl2_FactSale_parquet",
 						"type": "DatasetReference"
 					}
 				]

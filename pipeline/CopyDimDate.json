@@ -49,7 +49,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchitmdl_Date_csv",
+						"referenceName": "dest_kchbizdl2_Date_csv",
 						"type": "DatasetReference"
 					}
 				]

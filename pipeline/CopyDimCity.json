@@ -58,7 +58,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchitmdl_City_parquet",
+						"referenceName": "dest_kchbizdl2_City_parquet",
 						"type": "DatasetReference"
 					}
 				]
