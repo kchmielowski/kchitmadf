@@ -44,8 +44,7 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "CustomerKey",
-									"type": "Int32"
+									"name": "CustomerKey"
 								}
 							}
 						]
