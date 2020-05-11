@@ -1,5 +1,5 @@
 {
-	"name": "src_azurekchitm_DimCustomer_tbl",
+	"name": "src_kchbizsqlserver_DimCustomer_tbl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizazuredb",
