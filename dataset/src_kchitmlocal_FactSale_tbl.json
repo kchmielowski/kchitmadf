@@ -1,5 +1,5 @@
 {
-	"name": "SourceDataset_d6f",
+	"name": "src_kchitmlocal_FactSale_tbl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizlocaldb",
