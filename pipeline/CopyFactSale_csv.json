@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_d6f",
+				"name": "Copy_FactSale_csv",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
