@@ -38,7 +38,222 @@
 							"fileExtension": ".txt"
 						}
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "SaleKey",
+									"type": "Int64"
+								},
+								"sink": {
+									"type": "Int64",
+									"ordinal": 1
+								}
+							},
+							{
+								"source": {
+									"name": "CityKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 2
+								}
+							},
+							{
+								"source": {
+									"name": "CustomerKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 3
+								}
+							},
+							{
+								"source": {
+									"name": "BillToCustomerKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 4
+								}
+							},
+							{
+								"source": {
+									"name": "StockItemKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 5
+								}
+							},
+							{
+								"source": {
+									"name": "InvoiceDateKey",
+									"type": "DateTime"
+								},
+								"sink": {
+									"type": "DateTime",
+									"ordinal": 6
+								}
+							},
+							{
+								"source": {
+									"name": "DeliveryDateKey",
+									"type": "DateTime"
+								},
+								"sink": {
+									"type": "DateTime",
+									"ordinal": 7
+								}
+							},
+							{
+								"source": {
+									"name": "SalespersonKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 8
+								}
+							},
+							{
+								"source": {
+									"name": "WWIInvoiceID",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 9
+								}
+							},
+							{
+								"source": {
+									"name": "Description",
+									"type": "String"
+								},
+								"sink": {
+									"type": "String",
+									"ordinal": 10
+								}
+							},
+							{
+								"source": {
+									"name": "Package",
+									"type": "String"
+								},
+								"sink": {
+									"type": "String",
+									"ordinal": 11
+								}
+							},
+							{
+								"source": {
+									"name": "Quantity",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 12
+								}
+							},
+							{
+								"source": {
+									"name": "UnitPrice",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 13
+								}
+							},
+							{
+								"source": {
+									"name": "TaxRate",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 14
+								}
+							},
+							{
+								"source": {
+									"name": "TotalExcludingTax",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 15
+								}
+							},
+							{
+								"source": {
+									"name": "TaxAmount",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 16
+								}
+							},
+							{
+								"source": {
+									"name": "Profit",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 17
+								}
+							},
+							{
+								"source": {
+									"name": "TotalIncludingTax",
+									"type": "Decimal"
+								},
+								"sink": {
+									"type": "Decimal",
+									"ordinal": 18
+								}
+							},
+							{
+								"source": {
+									"name": "TotalDryItems",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 19
+								}
+							},
+							{
+								"source": {
+									"name": "TotalChillerItems",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 20
+								}
+							},
+							{
+								"source": {
+									"name": "LineageKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"type": "Int32",
+									"ordinal": 21
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
