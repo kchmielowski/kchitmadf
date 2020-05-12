@@ -44,7 +44,17 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "CustomerKey"
+									"name": "CustomerKey",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "WWICityID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "WWICityID"
 								}
 							}
 						]
