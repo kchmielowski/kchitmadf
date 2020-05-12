@@ -40,12 +40,192 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "SaleKey",
+									"type": "Int64"
+								},
+								"sink": {
+									"name": "SaleKey"
+								}
+							},
+							{
+								"source": {
+									"name": "CityKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "CityKey"
+								}
+							},
+							{
+								"source": {
 									"name": "CustomerKey",
 									"type": "Int32"
 								},
 								"sink": {
 									"name": "CustomerKey",
 									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "BillToCustomerKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "BillToCustomerKey"
+								}
+							},
+							{
+								"source": {
+									"name": "StockItemKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "StockItemKey"
+								}
+							},
+							{
+								"source": {
+									"name": "InvoiceDateKey",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "InvoiceDateKey"
+								}
+							},
+							{
+								"source": {
+									"name": "DeliveryDateKey",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "DeliveryDateKey"
+								}
+							},
+							{
+								"source": {
+									"name": "SalespersonKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "SalespersonKey"
+								}
+							},
+							{
+								"source": {
+									"name": "WWIInvoiceID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "WWIInvoiceID"
+								}
+							},
+							{
+								"source": {
+									"name": "Description",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Description"
+								}
+							},
+							{
+								"source": {
+									"name": "Package",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Package"
+								}
+							},
+							{
+								"source": {
+									"name": "Quantity",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "Quantity"
+								}
+							},
+							{
+								"source": {
+									"name": "UnitPrice",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "UnitPrice"
+								}
+							},
+							{
+								"source": {
+									"name": "TaxRate",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "TaxRate"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalExcludingTax",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "TotalExcludingTax"
+								}
+							},
+							{
+								"source": {
+									"name": "TaxAmount",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "TaxAmount"
+								}
+							},
+							{
+								"source": {
+									"name": "Profit",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "Profit"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalIncludingTax",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "TotalIncludingTax"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalDryItems",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "TotalDryItems"
+								}
+							},
+							{
+								"source": {
+									"name": "TotalChillerItems",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "TotalChillerItems"
+								}
+							},
+							{
+								"source": {
+									"name": "LineageKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "LineageKey"
 								}
 							}
 						]
