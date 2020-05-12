@@ -1,0 +1,101 @@
+{
+	"name": "SourceDataset_d6f",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "kchbizlocaldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "SaleKey",
+				"type": "bigint"
+			},
+			{
+				"name": "CityKey",
+				"type": "int"
+			},
+			{
+				"name": "CustomerKey",
+				"type": "int"
+			},
+			{
+				"name": "BillToCustomerKey",
+				"type": "int"
+			},
+			{
+				"name": "StockItemKey",
+				"type": "int"
+			},
+			{
+				"name": "InvoiceDateKey",
+				"type": "date"
+			},
+			{
+				"name": "DeliveryDateKey",
+				"type": "date"
+			},
+			{
+				"name": "SalespersonKey",
+				"type": "int"
+			},
+			{
+				"name": "WWIInvoiceID",
+				"type": "int"
+			},
+			{
+				"name": "Description",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Package",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Quantity",
+				"type": "int"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "decimal"
+			},
+			{
+				"name": "TaxRate",
+				"type": "decimal"
+			},
+			{
+				"name": "TotalExcludingTax",
+				"type": "decimal"
+			},
+			{
+				"name": "TaxAmount",
+				"type": "decimal"
+			},
+			{
+				"name": "Profit",
+				"type": "decimal"
+			},
+			{
+				"name": "TotalIncludingTax",
+				"type": "decimal"
+			},
+			{
+				"name": "TotalDryItems",
+				"type": "int"
+			},
+			{
+				"name": "TotalChillerItems",
+				"type": "int"
+			},
+			{
+				"name": "LineageKey",
+				"type": "int"
+			}
+		],
+		"typeProperties": {
+			"schema": "Fact",
+			"table": "Sale_V"
+		}
+	}
+}
