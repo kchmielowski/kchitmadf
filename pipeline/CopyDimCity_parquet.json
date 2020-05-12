@@ -1,5 +1,5 @@
 {
-	"name": "CopyDimCity",
+	"name": "CopyDimCity_parquet",
 	"properties": {
 		"activities": [
 			{

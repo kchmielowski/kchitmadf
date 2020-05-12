@@ -1,5 +1,5 @@
 {
-	"name": "DestinationDataset_d6f",
+	"name": "dest_kchbizdl2_FactSale_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizdl2",
