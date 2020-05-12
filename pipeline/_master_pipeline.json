@@ -82,7 +82,7 @@
 					{
 						"activity": "CopyFactSale",
 						"dependencyConditions": [
-							"Succeeded"
+							"Completed"
 						]
 					}
 				],
