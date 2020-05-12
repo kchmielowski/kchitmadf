@@ -44,7 +44,89 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "CustomerKey"
+									"name": "CustomerKey",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "WWICustomerID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "WWICustomerID"
+								}
+							},
+							{
+								"source": {
+									"name": "Customer",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Customer"
+								}
+							},
+							{
+								"source": {
+									"name": "BillToCustomer",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BillToCustomer"
+								}
+							},
+							{
+								"source": {
+									"name": "Category",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Category"
+								}
+							},
+							{
+								"source": {
+									"name": "BuyingGroup",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BuyingGroup"
+								}
+							},
+							{
+								"source": {
+									"name": "PrimaryContact",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PrimaryContact"
+								}
+							},
+							{
+								"source": {
+									"name": "PostalCode",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PostalCode"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidFrom",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidFrom"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidTo",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidTo"
 								}
 							}
 						]
