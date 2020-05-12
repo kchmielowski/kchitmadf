@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchbizdl2_Customer_parquet",
+	"name": "dest_kchbizdl2_DimCustomer_parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizdl2",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Customer.parquet",
+				"fileName": "DimCustomer.parquet",
 				"fileSystem": "raw"
 			},
 			"compressionCodec": "snappy"

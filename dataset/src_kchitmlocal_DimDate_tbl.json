@@ -1,5 +1,5 @@
 {
-	"name": "src_kchitmlocal_Date_tbl",
+	"name": "src_kchitmlocal_DimDate_tbl",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizlocaldb",

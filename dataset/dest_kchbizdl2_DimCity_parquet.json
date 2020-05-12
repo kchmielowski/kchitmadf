@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchbizdl2_City_parquet",
+	"name": "dest_kchbizdl2_DimCity_parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizdl2",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "City.parquet",
+				"fileName": "DimCity.parquet",
 				"fileSystem": "raw"
 			},
 			"compressionCodec": "snappy"

@@ -151,13 +151,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_kchitmlocal_City_tbl",
+						"referenceName": "src_kchitmlocal_DimCity_tbl",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchbizdl2_City_parquet",
+						"referenceName": "dest_kchbizdl2_DimCity_parquet",
 						"type": "DatasetReference"
 					}
 				]

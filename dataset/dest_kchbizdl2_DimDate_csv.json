@@ -1,5 +1,5 @@
 {
-	"name": "dest_kchbizdl2_Date_csv",
+	"name": "dest_kchbizdl2_DimDate_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "kchbizdl2",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Date.csv",
+				"fileName": "DimDate.csv",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": ";",

@@ -140,7 +140,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchbizdl2_Customer_parquet",
+						"referenceName": "dest_kchbizdl2_DimCustomer_parquet",
 						"type": "DatasetReference"
 					}
 				]

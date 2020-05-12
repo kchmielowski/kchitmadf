@@ -188,13 +188,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "src_kchitmlocal_Date_tbl",
+						"referenceName": "src_kchitmlocal_DimDate_tbl",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "dest_kchbizdl2_Date_csv",
+						"referenceName": "dest_kchbizdl2_DimDate_csv",
 						"type": "DatasetReference"
 					}
 				]
