@@ -44,8 +44,7 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "CustomerKey",
-									"type": "Int32"
+									"name": "CityKey"
 								}
 							},
 							{
@@ -55,6 +54,96 @@
 								},
 								"sink": {
 									"name": "WWICityID"
+								}
+							},
+							{
+								"source": {
+									"name": "City",
+									"type": "String"
+								},
+								"sink": {
+									"name": "City"
+								}
+							},
+							{
+								"source": {
+									"name": "StateProvince",
+									"type": "String"
+								},
+								"sink": {
+									"name": "StateProvince"
+								}
+							},
+							{
+								"source": {
+									"name": "Country",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Country"
+								}
+							},
+							{
+								"source": {
+									"name": "Continent",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Continent"
+								}
+							},
+							{
+								"source": {
+									"name": "SalesTerritory",
+									"type": "String"
+								},
+								"sink": {
+									"name": "SalesTerritory"
+								}
+							},
+							{
+								"source": {
+									"name": "Region",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Region"
+								}
+							},
+							{
+								"source": {
+									"name": "Subregion",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Subregion"
+								}
+							},
+							{
+								"source": {
+									"name": "LatestRecordedPopulation",
+									"type": "Int64"
+								},
+								"sink": {
+									"name": "LatestRecordedPopulation"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidFrom",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidFrom"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidTo",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidTo"
 								}
 							}
 						]
