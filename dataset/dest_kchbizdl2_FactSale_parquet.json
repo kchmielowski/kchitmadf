@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Sale.parquet",
+				"fileName": "FactSale.parquet",
 				"fileSystem": "raw"
 			},
 			"compressionCodec": "snappy"
