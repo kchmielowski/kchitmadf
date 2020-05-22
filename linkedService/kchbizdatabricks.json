@@ -1,0 +1,19 @@
+{
+	"name": "kchbizdatabricks",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-328766657364835.15.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kchbizkv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kchdatabricks"
+			},
+			"existingClusterId": "0511-105411-taper908"
+		}
+	}
+}
