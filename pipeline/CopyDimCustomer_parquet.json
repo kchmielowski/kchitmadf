@@ -54,7 +54,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "WWICustomerID"
+									"name": "WWICustomerID",
+									"type": "Int32"
 								}
 							},
 							{
@@ -63,7 +64,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Customer"
+									"name": "Customer",
+									"type": "String"
 								}
 							},
 							{
@@ -72,7 +74,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "BillToCustomer"
+									"name": "BillToCustomer",
+									"type": "String"
 								}
 							},
 							{
@@ -81,7 +84,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Category"
+									"name": "Category",
+									"type": "String"
 								}
 							},
 							{
@@ -90,7 +94,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "BuyingGroup"
+									"name": "BuyingGroup",
+									"type": "String"
 								}
 							},
 							{
@@ -99,7 +104,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "PrimaryContact"
+									"name": "PrimaryContact",
+									"type": "String"
 								}
 							},
 							{
@@ -108,7 +114,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "PostalCode"
+									"name": "PostalCode",
+									"type": "String"
 								}
 							},
 							{
@@ -117,7 +124,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"name": "ValidFrom"
+									"name": "ValidFrom",
+									"type": "DateTime"
 								}
 							},
 							{
@@ -126,7 +134,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"name": "ValidTo"
+									"name": "ValidTo",
+									"type": "DateTime"
 								}
 							}
 						]
