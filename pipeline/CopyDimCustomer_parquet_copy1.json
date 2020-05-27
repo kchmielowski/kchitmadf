@@ -1,0 +1,160 @@
+{
+	"name": "CopyDimCustomer_parquet_copy1",
+	"properties": {
+		"activities": [
+			{
+				"name": "CopyDimCustomer",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "Dimension.Customer_V"
+					},
+					{
+						"name": "Destination",
+						"value": "raw//Customer.parquet"
+					}
+				],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"queryTimeout": "02:00:00"
+					},
+					"sink": {
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "CustomerKey",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "CustomerKey",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "WWICustomerID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "WWICustomerID",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "Customer",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Customer",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "BillToCustomer",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BillToCustomer",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Category",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Category",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "BuyingGroup",
+									"type": "String"
+								},
+								"sink": {
+									"name": "BuyingGroup",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "PrimaryContact",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PrimaryContact",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "PostalCode",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PostalCode",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidFrom",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidFrom",
+									"type": "DateTime"
+								}
+							},
+							{
+								"source": {
+									"name": "ValidTo",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "ValidTo",
+									"type": "DateTime"
+								}
+							}
+						]
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "src_kchbizsqlserver_DimCustomer_tbl",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "dest_kchbizdl2_DimCustomer_parquet",
+						"type": "DatasetReference"
+					}
+				]
+			}
+		],
+		"annotations": []
+	}
+}

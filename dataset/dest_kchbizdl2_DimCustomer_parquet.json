@@ -19,6 +19,42 @@
 			{
 				"name": "CustomerKey",
 				"type": "INT32"
+			},
+			{
+				"name": "WWICustomerID",
+				"type": "INT32"
+			},
+			{
+				"name": "Customer",
+				"type": "UTF8"
+			},
+			{
+				"name": "BillToCustomer",
+				"type": "UTF8"
+			},
+			{
+				"name": "Category",
+				"type": "UTF8"
+			},
+			{
+				"name": "BuyingGroup",
+				"type": "UTF8"
+			},
+			{
+				"name": "PrimaryContact",
+				"type": "UTF8"
+			},
+			{
+				"name": "PostalCode",
+				"type": "UTF8"
+			},
+			{
+				"name": "ValidFrom",
+				"type": "INT96"
+			},
+			{
+				"name": "ValidTo",
+				"type": "INT96"
 			}
 		]
 	},
