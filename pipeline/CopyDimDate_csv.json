@@ -16,11 +16,11 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "Dimension.Date"
+						"value": "Dimension.Date_V"
 					},
 					{
 						"name": "Destination",
-						"value": "raw//Date.csv"
+						"value": "raw//DimDate.csv"
 					}
 				],
 				"typeProperties": {
