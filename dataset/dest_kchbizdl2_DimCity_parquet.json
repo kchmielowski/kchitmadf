@@ -17,8 +17,52 @@
 		},
 		"schema": [
 			{
-				"name": "CustomerKey",
+				"name": "CityKey",
 				"type": "INT32"
+			},
+			{
+				"name": "WWICityID",
+				"type": "INT32"
+			},
+			{
+				"name": "City",
+				"type": "UTF8"
+			},
+			{
+				"name": "StateProvince",
+				"type": "UTF8"
+			},
+			{
+				"name": "Country",
+				"type": "UTF8"
+			},
+			{
+				"name": "Continent",
+				"type": "UTF8"
+			},
+			{
+				"name": "SalesTerritory",
+				"type": "UTF8"
+			},
+			{
+				"name": "Region",
+				"type": "UTF8"
+			},
+			{
+				"name": "Subregion",
+				"type": "UTF8"
+			},
+			{
+				"name": "LatestRecordedPopulation",
+				"type": "INT64"
+			},
+			{
+				"name": "ValidFrom",
+				"type": "INT96"
+			},
+			{
+				"name": "ValidTo",
+				"type": "INT96"
 			}
 		]
 	}

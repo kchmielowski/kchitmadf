@@ -13,7 +13,7 @@
 				"type": "date"
 			},
 			{
-				"name": "Day Number",
+				"name": "DayNumber",
 				"type": "int",
 				"precision": 10
 			},
@@ -26,47 +26,47 @@
 				"type": "nvarchar"
 			},
 			{
-				"name": "Short Month",
+				"name": "ShortMonth",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Calendar Month Number",
+				"name": "CalendarMonthNumber",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "Calendar Month Label",
+				"name": "CalendarMonthLabel",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Calendar Year",
+				"name": "CalendarYear",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "Calendar Year Label",
+				"name": "CalendarYearLabel",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Fiscal Month Number",
+				"name": "FiscalMonthNumber",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "Fiscal Month Label",
+				"name": "FiscalMonthLabel",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Fiscal Year",
+				"name": "FiscalYear",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "Fiscal Year Label",
+				"name": "FiscalYearLabel",
 				"type": "nvarchar"
 			},
 			{
-				"name": "ISO Week Number",
+				"name": "ISOWeekNumber",
 				"type": "int",
 				"precision": 10
 			}

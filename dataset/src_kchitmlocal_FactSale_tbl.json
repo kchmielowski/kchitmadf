@@ -10,23 +10,28 @@
 		"schema": [
 			{
 				"name": "SaleKey",
-				"type": "bigint"
+				"type": "bigint",
+				"precision": 19
 			},
 			{
 				"name": "CityKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "CustomerKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "BillToCustomerKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "StockItemKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "InvoiceDateKey",
@@ -38,11 +43,13 @@
 			},
 			{
 				"name": "SalespersonKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "WWIInvoiceID",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "Description",
@@ -54,43 +61,59 @@
 			},
 			{
 				"name": "Quantity",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "UnitPrice",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "TaxRate",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 3
 			},
 			{
 				"name": "TotalExcludingTax",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "TaxAmount",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "Profit",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "TotalIncludingTax",
-				"type": "decimal"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 2
 			},
 			{
 				"name": "TotalDryItems",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "TotalChillerItems",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			},
 			{
 				"name": "LineageKey",
-				"type": "int"
+				"type": "int",
+				"precision": 10
 			}
 		],
 		"typeProperties": {
