@@ -13,7 +13,7 @@
 				"fileName": "DimDate.csv",
 				"fileSystem": "raw"
 			},
-			"columnDelimiter": ";",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
