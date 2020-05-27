@@ -44,7 +44,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "CityKey"
+									"name": "CityKey",
+									"type": "Int32"
 								}
 							},
 							{
@@ -53,7 +54,8 @@
 									"type": "Int32"
 								},
 								"sink": {
-									"name": "WWICityID"
+									"name": "WWICityID",
+									"type": "Int32"
 								}
 							},
 							{
@@ -62,7 +64,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "City"
+									"name": "City",
+									"type": "String"
 								}
 							},
 							{
@@ -71,7 +74,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "StateProvince"
+									"name": "StateProvince",
+									"type": "String"
 								}
 							},
 							{
@@ -80,7 +84,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Country"
+									"name": "Country",
+									"type": "String"
 								}
 							},
 							{
@@ -89,7 +94,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Continent"
+									"name": "Continent",
+									"type": "String"
 								}
 							},
 							{
@@ -98,7 +104,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "SalesTerritory"
+									"name": "SalesTerritory",
+									"type": "String"
 								}
 							},
 							{
@@ -107,7 +114,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Region"
+									"name": "Region",
+									"type": "String"
 								}
 							},
 							{
@@ -116,7 +124,8 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Subregion"
+									"name": "Subregion",
+									"type": "String"
 								}
 							},
 							{
@@ -125,7 +134,8 @@
 									"type": "Int64"
 								},
 								"sink": {
-									"name": "LatestRecordedPopulation"
+									"name": "LatestRecordedPopulation",
+									"type": "Int64"
 								}
 							},
 							{
@@ -134,7 +144,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"name": "ValidFrom"
+									"name": "ValidFrom",
+									"type": "DateTime"
 								}
 							},
 							{
@@ -143,7 +154,8 @@
 									"type": "DateTime"
 								},
 								"sink": {
-									"name": "ValidTo"
+									"name": "ValidTo",
+									"type": "DateTime"
 								}
 							}
 						]
